@@ -5,7 +5,8 @@ Replace "ACCESS_CLIENT_TOKEN" in chatbot.js file with your dialogflow access_cli
 
 use the chatbot as iframe tag : 
  
- <iframe src="Chatbot_Public_Service/chatbot.html"
+ <iframe 
+        src="Chatbot_Public_Service/chatbot.html"
         id="developoiChatbot"
         microphone="true" 
         animation="true"
