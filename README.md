@@ -8,6 +8,7 @@ use the chatbot as iframe tag :
  <iframe 
         src="Chatbot_Public_Service/chatbot.html"
         id="developoiChatbot"
+
         microphone="true" 
         animation="true"
         color="#151618"
