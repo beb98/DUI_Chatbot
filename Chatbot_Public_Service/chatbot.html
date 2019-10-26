@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatbot</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./chatbotStyle.css"/>
+</head>
+<body>
+
+        <div class="chatbot_icon"></div>
+        <div class="chatbot_chat">
+            <div class="chat_title">
+                <img width="100%" height="100%" class="chat_title_logo" 
+                src=""/>
+                <p class="chat_title_name">
+                    Spotify
+                </p>
+                <button class="chat_title_close">
+                    x
+                </button>
+            </div>
+            <div class="chat_body">
+                 <div class="chat_body_messages">
+                     <div class="chat_body_messages_content">
+         
+
+                     </div>
+                    <div class="loading">
+                        <img  src="typing.gif" class="loading_img"/>
+                    </div>
+                 </div>
+                 <div class="chat_body_inputC">
+                    <input type="text" placeholder="Send message" class="chat_body_inputC_input"/>
+                    <img src="microphone.svg" class="chat_body_microphone" width="18px"/>
+                    <img src="close.svg" class="chat_body_close_microphone" width="12px"/>
+                 </div>
+            </div>
+        </div>
+        <script src="chatbot.js"></script>
+</body>
+</html>
