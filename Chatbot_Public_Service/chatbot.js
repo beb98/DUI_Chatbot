@@ -405,7 +405,7 @@ const SERVER_CHAT = async (message) => {
     let response = await fetch(`https://api.dialogflow.com/v1/query?v=20150910&lang=en&query=${message.text}&sessionId=12345&timezone=Egypt/Cairo` , {
         method : "GET",
         headers : {
-            'Authorization': `Bearer 8438e355beee4b6db9245a65d85d3317` 
+            'Authorization': `Bearer ACCESS_CLIENT_TOKEN` 
         }
     });
 
